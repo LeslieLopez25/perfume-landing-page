@@ -36,3 +36,8 @@ img {
     grid-column: 2/-1;
     grid-row: span 1;
 }
+
+.main-content {
+    grid-column: 2/-1;
+    grid-row: 2/4;
+}
