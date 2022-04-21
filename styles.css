@@ -28,7 +28,11 @@ img {
 }
 
 .sidebar {
-    background-color: red;
     grid-column: 1/2;
     grid-row: span 4;
+}
+
+.master-header {
+    grid-column: 2/-1;
+    grid-row: span 1;
 }
