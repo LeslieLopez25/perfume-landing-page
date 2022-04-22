@@ -9,9 +9,10 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: "Roboto", sans-serif;
     color: hsl(340, 1.4%, 41%);
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 1.6rem;
     overflow-x: hidden;
 }
 
@@ -39,18 +40,18 @@ img {
 }
 
 .sidebar span {
-    transform: rotate(-90deg);
     color: hsl(0, 0%, 28.2%);
-    animation: fade-in ease-in .5s .2s forwards;
+    transform: rotate(-90deg);
     opacity: 0;
+    animation: fade-in ease-in .5s .2s forwards;
 }
 
 .sidebar span:nth-child(2) {
+    background-color: hsl(0, 0%, 28.2%);
+    margin: 2rem 0;
     width: 2px;
     height: 10rem;
-    background-color: hsl(0, 0%, 28.2%);
     transform: rotate(0);
-    margin: 2rem 0;
 }
 
 .master-header {
@@ -84,9 +85,9 @@ img {
 }
 
 .nav-link {
+    color: hsl(340, 1.4%, 41%);
     font-size: 1.4rem;
     text-transform: uppercase;
-    color: hsl(340, 1.4%, 41%);
 }
 
 .main-content {
@@ -102,34 +103,34 @@ img {
 }
 
 .description {
-    max-width: 50rem;
     justify-self: start;
+    max-width: 50rem;
 }
 
 .item-title {
+    color: hsl(0, 0%, 0%);
     font-size: 7rem;
     font-weight: 400;
     margin-bottom: 3rem;
-    color: hsl(0, 0%, 0%);
     opacity: 0;
     animation: fade-in-down ease-in .5s .5s forwards;
 }
 
 .item-description {
-    opacity: 0;
     margin-bottom: 4rem;
+    opacity: 0;
     animation: fade-in-down ease-in .5s .1s forwards;
 }
 
 .btn {
     display: inline-block;
-    padding: 1.5rem 3rem;
     background-color: hsl(240, 63.5%, 26.9%);
     color: hsl(0, 0%, 100%);
-    border-radius: 4rem;
-    text-transform: uppercase;
     font-weight: bold;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
     letter-spacing: 1px;
+    border-radius: 4rem;
     opacity: 0;
     animation: fade-in-down ease-in .5s 1.5s forwards;
 }
@@ -143,17 +144,17 @@ img {
 }
 
 .image-wrapper::after {
-    content: "";
-    width: 75rem;
-    height: 32rem;
     background-color: hsl(240, 35%, 30%);
+    content: "";
     position: absolute;
     top: 50%;
     right: 0;
+    width: 75rem;
+    height: 32rem;
     transform: translate(29rem, -50%);
-    z-index: -2;
     opacity: 0;
     animation: fade-in-left ease-in .5s 2s forwards;
+    z-index: -2;
 }
 
 .bottle {
@@ -163,13 +164,13 @@ img {
 }
 
 .rose {
-    width: 50%;
     position: absolute;
     bottom: 1rem;
     left: -15rem;
-    z-index: -1;
+    width: 50%;
     opacity: 0;
     animation: fade-in ease-in .5s 3s forwards;
+    z-index: -1;
 }
 
 .master-footer {
@@ -179,20 +180,20 @@ img {
 
 .master-footer span {
     display: inline-block;
+    background-color: hsl(0, 0%, 84.7%);
+    margin-right: .5rem;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: hsl(0, 0%, 84.7%);
     border-radius: 50%;
-    margin-right: .5rem;
-    cursor: pointer;
     opacity: 0;
     animation: fade-in ease-in .5s 3.5s forwards;
+    cursor: pointer;
 }
 
 span.selected {
+    background-color: hsl(240, 63.5%, 26.9%);
     width: 3.5rem;
     border-radius: 2rem;
-    background-color: hsl(240, 63.5%, 26.9%);
 }
 
 @keyframes fade-in {
