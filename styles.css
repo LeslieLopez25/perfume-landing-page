@@ -11,7 +11,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
-    color: #6a6768;
+    color: hsl(340, 1.4%, 41%);
     overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ img {
 
 .sidebar span {
     transform: rotate(-90deg);
-    color: #484848;
+    color: hsl(0, 0%, 28.2%);
     animation: fade-in ease-in .5s .2s forwards;
     opacity: 0;
 }
@@ -48,7 +48,7 @@ img {
 .sidebar span:nth-child(2) {
     width: 2px;
     height: 10rem;
-    background-color: #484848;
+    background-color: hsl(0, 0%, 28.2%);
     transform: rotate(0);
     margin: 2rem 0;
 }
@@ -86,7 +86,7 @@ img {
 .nav-link {
     font-size: 1.4rem;
     text-transform: uppercase;
-    color: #6a6768;
+    color: hsl(340, 1.4%, 41%);
 }
 
 .main-content {
@@ -110,7 +110,7 @@ img {
     font-size: 7rem;
     font-weight: 400;
     margin-bottom: 3rem;
-    color: #000;
+    color: hsl(0, 0%, 0%);
     opacity: 0;
     animation: fade-in-down ease-in .5s .5s forwards;
 }
@@ -125,7 +125,7 @@ img {
     display: inline-block;
     padding: 1.5rem 3rem;
     background-color: hsl(240, 63.5%, 26.9%);
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     border-radius: 4rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -181,7 +181,7 @@ img {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #d8d8d8;
+    background-color: hsl(0, 0%, 84.7%);
     border-radius: 50%;
     margin-right: .5rem;
     cursor: pointer;
